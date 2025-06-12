@@ -27,4 +27,4 @@ def main(page: ft.Page):
     abre_login()
 
 # Inicialização do app
-ft.app(target=main, assets_dir="assets")
+ft.app(target=main,assets_dir="assets", port=8080, view=ft.WEB_BROWSER)
